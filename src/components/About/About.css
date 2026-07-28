@@ -1,0 +1,24 @@
+.about {
+  min-height: 100vh;
+  padding:120px 0;
+}
+
+.section-tag {
+  color: #e63946;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.about h2 {
+  font-size: clamp(3rem, 7vw, 5rem);
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  color: #a3a3a3;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}

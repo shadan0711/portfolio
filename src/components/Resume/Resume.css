@@ -1,0 +1,15 @@
+.resume {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 16px 36px;
+  background: #e63946;
+  border-radius: 999px;
+  color: white;
+}

@@ -1,0 +1,21 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 8%;
+}
+
+.contact-text {
+  margin: 25px 0;
+  color: #a3a3a3;
+  font-size: 1.2rem;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 16px 36px;
+  border-radius: 999px;
+  font-weight: 600;
+}
