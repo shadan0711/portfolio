@@ -2,11 +2,11 @@ import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
-import Journal from "./components/Journal/Journal";
 import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Bookshelf from "./components/Bookshelf/Bookshelf";
+import Projects from "./components/Bookshelf/Projects";
+import Journey from "./components/Journey/Journey";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <main>
         <Hero />
         <About />
-       <Bookshelf />
-        <Journal />
+        <Journey />
+        <Projects />
         <Resume />
         <Contact />
       </main>

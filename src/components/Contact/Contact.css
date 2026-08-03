@@ -1,21 +1,246 @@
 .contact {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  padding: 0 8%;
+    padding: 10rem 0 6rem;
 }
 
-.contact-text {
-  margin: 25px 0;
-  color: #a3a3a3;
-  font-size: 1.2rem;
+.contact h2 {
+    font-size: clamp(3rem, 7vw, 5rem);
+    line-height: 1.1;
+    max-width: 760px;
+    margin-top: 18px;
 }
 
-.contact-btn {
-  display: inline-block;
-  background: white;
-  color: black;
-  padding: 16px 36px;
-  border-radius: 999px;
-  font-weight: 600;
+.contact h3 {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 760px;
+    margin-top: 18px;
+    color: #777;
+}
+
+.contact-links {
+    margin-top: 100px;
+}
+
+.contact-links a,
+.email-btn {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 28px 0;
+
+    background: none;
+
+    border: none;
+
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+
+    color: inherit;
+
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
+.left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.left svg {
+
+    font-size: 1.5rem;
+
+    color: #8a8a8a;
+
+    transition: .3s;
+}
+
+.left span {
+
+    font-size: 1.3rem;
+
+    font-weight: 600;
+
+    transition: .3s;
+}
+
+.arrow,
+.copy {
+
+    font-size: 1rem;
+
+    color: #8a8a8a;
+
+    transition: .3s;
+}
+
+.contact-links a:hover .left svg,
+.email-btn:hover .left svg {
+
+    color: #E63946;
+}
+
+.contact-links a:hover .left span,
+.email-btn:hover .left span {
+
+    color: white;
+}
+
+.contact-links a:hover .arrow {
+
+    transform: translateX(8px);
+
+    color: white;
+}
+
+.email-btn:hover .copy {
+
+    color: white;
+}
+
+.footer-sign {
+
+    margin-top: 140px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-sign p {
+
+    color: #E63946;
+    font-size: .75rem;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.footer-sign h2 {
+
+    margin: 25px 0 20px;
+
+    font-size: 4rem;
+
+    font-weight: 800;
+
+    line-height: 1;
+}
+
+.footer-sign h2 span {
+
+    color: #E63946;
+}
+
+.footer-sign small {
+
+    color: #777;
+
+    font-size: .9rem;
+}
+
+.contact-item {
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+
+.contact-link {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 28px 0;
+
+    text-decoration: none;
+
+    color: inherit;
+}
+
+.copy-btn {
+
+    background: none;
+
+    border: none;
+
+    color: #8a8a8a;
+
+    cursor: pointer;
+
+    font-size: .95rem;
+
+    transition: .25s;
+}
+
+.copy-btn:hover {
+
+    color: #E63946;
+}
+
+.footer-sign{
+
+    position:relative;
+}
+
+.footer-sign::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:260px;
+    height:260px;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-45%);
+
+    background:#E63946;
+
+    border-radius:50%;
+
+    filter:blur(120px);
+
+    opacity:.12;
+
+    z-index:-1;
+}
+
+.footer-sign h2{
+
+    background-size:200% 100%;
+
+    animation:shine 6s linear infinite;
+}
+
+@keyframes shine{
+
+    from{
+        background-position:0%;
+    }
+
+    to{
+        background-position:200%;
+    }
 }

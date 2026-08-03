@@ -1,24 +1,109 @@
-.about {
-  min-height: 100vh;
-  padding:120px 0;
+.about{
+
+    padding:140px 0;
 }
 
-.section-tag {
-  color: #e63946;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-  font-size: 0.9rem;
+.about-text{
+
+    max-width:760px;
+
+    color:#9b9b9b;
+
+    font-size:1.15rem;
+
+    line-height:2;
+
+    margin-top:30px;
 }
 
-.about h2 {
-  font-size: clamp(3rem, 7vw, 5rem);
-  line-height: 1.1;
-  margin-bottom: 30px;
+.about-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:40px;
+
+    margin-top:70px;
 }
 
-.about-text {
-  color: #a3a3a3;
-  font-size: 1.15rem;
-  line-height: 1.9;
-  margin-bottom: 20px;
+.about-card{
+
+    background:#151515;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:22px;
+
+    padding:34px;
+
+    transition:.35s;
 }
+
+.about-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(230,57,70,.35);
+}
+
+.about-card h3{
+
+    margin-bottom:25px;
+
+    font-size:1.3rem;
+}
+
+.tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+}
+
+.tags span{
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    background:#222;
+
+    color:white;
+
+    font-size:.95rem;
+}
+
+.about-card ul{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+    color:#b5b5b5;
+
+    line-height:1.7;
+}
+
+.about-title{
+
+    font-size:clamp(4rem,8vw,7rem);
+
+    line-height:.9;
+
+    font-weight:800;
+
+    margin-top:18px;
+}
+
+.about-title span{
+
+    display:block;
+
+    color:white;
+}
+

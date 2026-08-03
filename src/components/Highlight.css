@@ -1,0 +1,13 @@
+.highlight{
+
+     color:#9b9b9b;
+
+    transition:.25s;
+
+    cursor:default;
+}
+
+.highlight:hover{
+
+    color:#E63946;
+}

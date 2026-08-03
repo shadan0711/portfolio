@@ -4,17 +4,22 @@ function Hero() {
     return (
         <section className="hero">
             <div className="hero-content">
+                <div className="hero-glow"></div>
                 <p className="hero-tag">Computer Science Student • Full Stack Developer</p>
 
                 <h1>
-                    Shadan
+                    Hi, I'm
                     <br />
-                    Khan
+                    <span className="initial">S</span>hadan
+                    <br />
+                    <span className="initial">K</span>han
                 </h1>
 
                 <p className="hero-description">
                     I build modern web applications and AI-powered tools that solve real problems with clean code and thoughtful design.
                 </p>
+
+                <div className="hero-line"></div>
 
                 <div className="hero-buttons">
 

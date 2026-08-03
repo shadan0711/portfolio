@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   padding: 0 8%;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-content {
@@ -50,4 +52,91 @@ transition:.3s;
 .hero-buttons a:hover{
 background:white;
 color:black;
+}
+
+
+.hero-buttons a:first-child{
+
+    background:#E63946;
+
+    color:white;
+
+    border:none;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    transition:.3s;
+}
+
+.hero-buttons a:first-child:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 14px 35px rgba(230,57,70,.35);
+}
+
+.hero-buttons a:last-child{
+
+    border:1px solid rgba(255,255,255,.15);
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    transition:.3s;
+}
+
+.hero-buttons a:last-child:hover{
+
+    background:white;
+
+    color:#111;
+
+    transform:translateY(-3px);
+}
+
+.hero-line{
+
+    width:90px;
+
+    height:3px;
+
+    background:#E63946;
+
+    margin-top:40px;
+
+    border-radius:999px;
+}
+
+.hero-glow{
+
+    position:absolute;
+
+    width:600px;
+
+    height:600px;
+
+    right:-220px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    border-radius:50%;
+
+    background:radial-gradient(
+        circle,
+        rgba(230,57,70,.18),
+        transparent 70%
+    );
+
+    pointer-events:none;
+
+    filter:blur(30px);
+}
+
+.hero h1 .initial{
+    color:#E63946;
 }
